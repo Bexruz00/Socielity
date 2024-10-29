@@ -1,0 +1,150 @@
+/* Tablet Version: [576px, 767px] */
+
+@media (max-width: 767.5px) {
+
+  .header__bt {
+    gap: 20px;
+  }
+
+  .header__bt a {
+    margin-right: 44px;
+  }
+  
+  .header__close {
+   position: absolute;
+   top: 32px;
+   right: 30px;
+  }
+
+  .header__bars {
+   position: absolute;
+   top: 32px;
+   right: 10px;
+  }
+
+  .logoBox__title h4 {
+    padding-top: 50px;
+  }
+
+  .logoBox__title p {
+    font-size: 15px;
+  } 
+
+  .home__title{
+    padding-top: 130px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+  }
+
+  .titleSm{
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .bt{
+    width: 150px;
+    height: 50px;
+  }
+
+  .svg{
+    padding-top: 100px;
+  }
+
+  .logo__swiper {
+    padding-right: 40px;
+    padding-top: 12px;
+  }
+  .logo__swiper {
+    padding-right: 1px;
+    max-width: 500px;
+    height: 70px;
+  }
+
+  .repetition__imgText{
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .repetition__textBox h4 {
+    font-size: 22px;
+    line-height: 44px;
+  }
+
+  .repetition__textBox p {
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px; 
+    padding-bottom: 25px; 
+  }
+
+  .repetition__imgbox img{
+    max-width: 400px;
+  }
+
+   .repetition{
+    gap: 60px;
+    margin: 20px 0;
+  }
+  
+  .imgSlide__slide img{
+    width: 400px;
+  }
+
+  .Text__bin h3{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .Text__bin p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .Text__bin h4{
+    font-size: 18px;
+    line-height: 24px; 
+  }
+  
+  .btm{
+    display: none;
+  }
+
+  .clip{
+    display: none;
+  }
+
+  .inputText{
+    width: 300px; 
+    height: 70px;
+    font-size: 14px;
+    line-height: 24px; 
+  }
+
+  .inputSubmit{
+    font-size: 14px;
+    line-height: 20px;
+    width: 110px;
+    height: 45px;
+  }
+
+  .inputs{
+    height: 70px;
+  }
+
+  .footer__all{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__all3{
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer__all2{
+    display: flex;
+    gap: 100px;
+  }
+}

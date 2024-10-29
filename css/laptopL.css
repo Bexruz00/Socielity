@@ -1,0 +1,96 @@
+/* Laptop Large Version: [992px; 1199px] */
+
+@media (max-width: 1199.5px) {
+  .header {
+    padding: 30px 0;
+  }
+
+  .header__menu ul {
+    gap: 60px;
+  }
+
+  .home__title{
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 1.10px;
+  }
+
+  .titleSm{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .bt{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 22px; 
+  }
+
+  .logo__swiper {
+    margin: 50px 0;
+    width: 100%;
+  }
+
+  .repetition__imgText{
+    gap: 100px;
+  }
+
+  .repetition__imgbox img{
+    max-width: 400px;
+  }
+   
+  .repetition__textBox h4 {
+    font-size: 24px;
+    line-height: 46px;
+  }
+
+  .repetition__textBox p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .iconBox h4{
+    font-size: 18px;
+    line-height: 25px; 
+  }
+
+  .iconBox p{
+    font-size: 13px;
+    line-height: 22px;
+  }
+  
+  .iconBox{
+    width: 200px;
+    height: 247px;
+  }
+  
+
+  .Massage{
+    display: none;
+  }
+  
+  .videoBox__img img{
+    max-width: 500px;
+  }
+
+  .imgText{
+    max-width: 411px;
+  }
+
+  .inputText{
+    width: 480px; 
+    height: 80px;
+    font-size: 20px;
+    line-height: 28px; 
+  }
+
+  .inputSubmit{
+    font-size: 16px;
+    line-height: 24px;
+    width: 150px;
+    height: 50px;
+    margin-left: 120px;
+  }
+ 
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+  --white: #fff;
+  --dark: #202020;
+  --black: #474747;
+  --gray: #666;
+  --blue: #4579CB;
+  --darkblue: #3760a3b7;
+}
+
+.bt{
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--blue);
+  color: var(--white);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; 
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.bigWord{
+  color: var(--black);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 1.12px;
+}
+
+.wordsm{
+  color: var(--gray);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.graysmWord{
+  color: var(--gray);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px; 
+}
+
+.boldWord{
+  color: var(--black);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.boldlgWord{
+  color: var(--black);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px; 
+}
+
+.boldsmWord{
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.boldnormWord{
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px; 
+}
+
+.whitesmWord{
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.whitebigWord{
+  color: var(--white);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px; 
+}
+
+.colBlue{
+  color: var(--blue);
+}

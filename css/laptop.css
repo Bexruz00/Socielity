@@ -1,0 +1,193 @@
+/* Laptop Version: [768px, 991px] */
+
+@media (max-width: 991.5px) {
+
+  .header.sticky {
+    display: none;
+  }
+
+  .header {
+    padding: 20px 0;
+  }
+
+  .header__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 101;
+    background-color: var(--white);
+    background-image: url(../image/bg__sm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+
+  .header__menu.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .header__menu ul a{
+    color: black;
+  }
+
+  .header__menu ul a:hover {
+    color: blue;
+  }
+
+  .header__menu ul a:hover::before{
+    width: 100%;
+    background-color: blue;
+  }
+  
+
+  .header .header__menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .header__close {
+    position: absolute;
+    top: 32px;
+    right: 30px;
+  }
+
+  .header__bars {
+    position: relative;
+    font-size: 25px;
+    color: var(--dark);
+    transition: 0.3s;
+  }
+
+  .header__close {
+    font-size: 25px;
+    color: var(--black);
+    transition: 0.3s;
+  }
+
+  .header__bars:hover {
+    cursor: pointer;
+    color: var(--blue);
+  }
+
+  .home__title{
+    padding-top: 150px;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 1.8px;
+  }
+
+  .titleSm{
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .bt{
+    width: 150px;
+    height: 50px;
+  }
+
+  .logoBox__title h4 {
+    padding-top: 60px;
+  }
+
+  .svg{
+    padding-top: 110px;
+  }
+
+  .logo__swiper {
+    margin: 40px 0;
+  }
+
+  .bn2 {
+    display: none;
+  }
+
+  .bn1{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .repetition__imgText{
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .repetition__textBox h4 {
+   text-align: center;
+  }
+
+  .repetition__textBox p {
+    text-align: center
+  }
+
+  .repetition__imgText{
+    gap: 20px;
+  }
+
+  .direction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .repetition__imgbox img{
+    max-width: 500px;
+  }
+
+  .repetition__textBox p {
+    padding-top: 10px; 
+    padding-bottom: 25px; 
+   }
+
+   .repetition{
+    gap: 80px;
+  }
+
+  .iconBox h4{
+    font-size: 20px;
+    line-height: 28px; 
+  }
+
+  .iconBox p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .iconBox{
+    width: 270px;
+    height: 267px;
+  }
+
+  .inputText{
+    width: 460px; 
+    height: 80px;
+    font-size: 19px;
+    line-height: 26px; 
+  }
+
+  .inputSubmit{
+    font-size: 15px;
+    line-height: 22px;
+    width: 130px;
+    height: 50px;
+    margin-left: 80px;
+  }
+  
+
+}
